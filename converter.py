@@ -1,10 +1,10 @@
 import tabula
 
 
-arquivo = input("Escreva o nome do arquivo .pdf")
+arquivo = input("Escreva o nome do arquivo: ")
 
-saida = input("Escreva o nome do arquivo de saída .csv")
+saida = input("Escreva o nome do arquivo de saída: ")
 
 
 
-tabula.convert_into(arquivo, saida, output_format="csv", pages='all')
+tabula.convert_into(arquivo + ".pdf", saida + ".csv", output_format="csv", pages='all')
