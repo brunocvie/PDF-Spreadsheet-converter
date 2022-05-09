@@ -1,5 +1,5 @@
 # PDF-Spreadsheet-converter
 
-Python script to convert PDF spreadsheet to CSV or XLSX
+Python script to convert PDF spreadsheet to CSV
 
-Script Python para conversão de planilhas em formato PDF para CSV ou XLSX
+Script Python para conversão de planilhas em formato PDF para CSV
